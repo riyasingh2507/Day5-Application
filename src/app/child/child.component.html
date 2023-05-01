@@ -1,0 +1,22 @@
+
+<hr/>
+<h1 class="h1">Counter To Check OnDestroy and OnInit:</h1>
+<h3 class="h3 col-md-12">Counter = {{counter}}</h3><br>
+<h2 class="h2 col-md-12"> Counter Change:</h2>
+<div class="col">
+  <ul class="h5 list-group w-50 mt-3" *ngFor="let chg of changeLog1">
+    <li class="list-group-item text-white" [style.background-color]="color1">{{chg}}</li>
+  </ul>
+</div>
+<hr>
+<br /><br /><br />
+<h1 class="h1">Input to check OnDestroy:</h1>
+<div>
+  <p class="display-6">{{user.name}} is in {{department}} department</p>
+  <h2 class="h2 col-md-12"> DoCheck Changes:</h2>
+  <div class="col">
+    <ul class="h5 list-group w-50 mt-3" *ngFor="let chg of changeLog2">
+      <li class="list-group-item text-white" [style.background-color]="color2">{{chg}}</li>
+    </ul>
+  </div>
+</div>

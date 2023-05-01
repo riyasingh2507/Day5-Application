@@ -1,0 +1,15 @@
+
+  <div class="row ">
+  <h3 class="display-6 col-md-2">Power:</h3>
+  <input [(ngModel)]="department" class="form-control mt-3 w-50 col-md-10 display-6">
+  </div>
+  <div class="row">
+  <h3 class="display-6 col-md-2">Hero.name:</h3>
+  <input [(ngModel)]="user.name" class="form-control mt-3 w-50  col-md-10 display-6">
+  </div>
+  <button class="btn btn-primary mt-3" (click)="resetAgain()">Reset Check</button>
+  <hr/>
+  <button class="btn btn-primary" (click)="updateCounter()">Update Counter</button> &nbsp; &nbsp;
+  <button class="btn btn-primary" (click)="reset()">Reset Counter</button>
+<app-child [counter]="counter" [user]="user" [department]="department" [color1]="color1" ></app-child>
+
